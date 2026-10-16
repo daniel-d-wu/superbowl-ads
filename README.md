@@ -19,6 +19,10 @@ The results provide evidence of an advertising effect during the NBA Finals: rep
 
 The instrument performed unevenly: the first-stage F-statistic was 374.9 for the NBA Finals, 152.2 for the Super Bowl, 16.09 for the World Series, and 4.935 for the Stanley Cup. The Stanley Cup estimate raises a weak-instrument concern.
 
+## Why is there no effect during the Superbowl?
+
+The identification strategy I exploited is exogenous variation across regions with a participating championship team and non-participating regions. During the superbowl, the entire country tunes in, so it is harder to isolate this effect.
+
 ## Important caveat
 
 The measured outcome is dealership visits, a proxy for consumer interest rather than completed sales or loan decisions. The causal interpretation depends on the exclusion restriction: local-team participation must affect dealership visits through advertising exposure rather than other channels.
