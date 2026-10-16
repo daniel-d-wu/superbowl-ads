@@ -23,21 +23,9 @@ The instrument performed unevenly: the first-stage F-statistic was 374.9 for the
 
 The measured outcome is dealership visits, a proxy for consumer interest rather than completed sales or loan decisions. The causal interpretation depends on the exclusion restriction: local-team participation must affect dealership visits through advertising exposure rather than other channels.
 
-## Files and reproduction
-
-- `report/research_report.pdf` — original report
-- `data/reported_results.csv` — regression values transcribed from report tables
-- `scripts/plot_reported_results.py` — regenerates the two figures
-
 ```bash
 python -m pip install -r requirements.txt
 python scripts/plot_reported_results.py
 ```
 
 The original Nielsen and SafeGraph source data and estimation code are not included. The script recreates figures from the reported table values; it does not rerun the analysis. See [REPRODUCIBILITY.md](REPRODUCIBILITY.md) for details.
-
-## Citation
-
-Daniel Wu. *Do Auto Ads During Championship Games Actually Work?* Graduate research report, August 24, 2021.
-
-No license is applied to the original report or its extracted materials. Please contact the author before reusing them.
