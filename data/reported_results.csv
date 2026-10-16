@@ -1,0 +1,21 @@
+section,event,year,model,outcome,estimate,std_error,n,first_stage_f_stat
+first_stage,Super Bowl,2018-2019,Local team participation,TV ratings (GRP),1.434,0.116,333,152.2
+first_stage,NBA Finals,2018-2019,Local team participation,TV ratings (GRP),3.601,0.186,320,374.9
+first_stage,Stanley Cup Finals,2018-2019,Local team participation,TV ratings (GRP),4.465,2.010,327,4.935
+first_stage,World Series,2018-2019,Local team participation,TV ratings (GRP),7.927,1.976,293,16.09
+second_stage,Super Bowl,2018-2019,IV: fitted ratings,Next-day dealership footprint,198.016,268.545,284,
+second_stage,Super Bowl,2018-2019,IV: fitted ratings,Next-day footprint / dealers,0.224,0.423,284,
+second_stage,Super Bowl,2018-2019,IV: fitted ratings,Log(1 + next-day footprint),-0.014,0.063,284,
+second_stage,Super Bowl,2018-2019,IV: fitted ratings,Log(1 + 7-day footprint),0.069,0.110,284,
+second_stage,NBA Finals,2018-2019,IV: fitted ratings,Next-day dealership footprint,23.932,2.047,280,
+second_stage,NBA Finals,2018-2019,IV: fitted ratings,Next-day footprint / dealers,2.367,0.267,280,
+second_stage,NBA Finals,2018-2019,IV: fitted ratings,Log(1 + next-day footprint),0.310,0.056,280,
+second_stage,NBA Finals,2018-2019,IV: fitted ratings,Log(1 + 7-day footprint),0.128,0.047,280,
+second_stage,Stanley Cup Finals,2018-2019,IV: fitted ratings,Next-day dealership footprint,2.856,18.070,258,
+second_stage,Stanley Cup Finals,2018-2019,IV: fitted ratings,Next-day footprint / dealers,0.198,0.247,258,
+second_stage,Stanley Cup Finals,2018-2019,IV: fitted ratings,Log(1 + next-day footprint),-0.006,0.019,258,
+second_stage,Stanley Cup Finals,2018-2019,IV: fitted ratings,Log(1 + 7-day footprint),-0.016,0.019,258,
+second_stage,World Series,2018-2019,IV: fitted ratings,Next-day dealership footprint,-5.961,14.266,272,
+second_stage,World Series,2018-2019,IV: fitted ratings,Next-day footprint / dealers,0.497,0.379,272,
+second_stage,World Series,2018-2019,IV: fitted ratings,Log(1 + next-day footprint),0.024,0.019,272,
+second_stage,World Series,2018-2019,IV: fitted ratings,Log(1 + 7-day footprint),0.011,0.011,272
